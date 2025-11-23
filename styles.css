@@ -395,7 +395,7 @@ body {
 /* Features Section - Smaller cards */
 .features {
     padding: 50px 0;
-    background-color: var(--background);
+    background-color: #e8f5f3;
 }
 
 .features-grid {
@@ -512,7 +512,7 @@ body {
 }
 
 .cta-text:last-of-type {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .cta-final {
@@ -521,6 +521,7 @@ body {
     margin-bottom: var(--spacing-xl);
     opacity: 0.95;
     font-weight: 500;
+    padding-top: 10px;
 }
 
 .download-buttons {
