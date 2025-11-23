@@ -689,6 +689,22 @@ body {
         padding: var(--spacing-xl) 0 30px;
     }
     
+    .hero-visual {
+        margin-bottom: -20px;
+    }
+    
+    .logo {
+        margin-bottom: var(--spacing-sm);
+    }
+    
+    .section-title {
+        margin-bottom: 0;
+    }
+    
+    .section-subtitle {
+        margin-bottom: 20px;
+    }
+    
     .hero-title {
         font-size: 1.8rem;
     }
