@@ -698,11 +698,11 @@ body {
     }
     
     .section-title {
-        margin-bottom: 0;
+        margin-bottom: 0 !important;
     }
     
     .section-subtitle {
-        margin-bottom: 20px;
+        margin-bottom: 20px !important;
     }
     
     .hero-title {
@@ -715,7 +715,7 @@ body {
     
     .section-title {
         font-size: 1.5rem;
-        margin-bottom: 24px;
+        margin-bottom: 0 !important;
     }
     
     .how-it-works,
