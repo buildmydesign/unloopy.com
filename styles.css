@@ -215,16 +215,18 @@ body {
     font-weight: 600;
     color: var(--primary);
     margin: 0 0 2px 0;
-    line-height: 1.3;
+    line-height: 1.4;
     white-space: nowrap;
+    height: 1.05em;
 }
 
 .schedule-desc {
     font-size: 0.75rem;
     color: var(--text-secondary);
-    line-height: 1.3;
-    margin: 0 0 var(--spacing-md) 0;
+    line-height: 1.4;
+    margin: 0 0 var(--spacing-lg) 0;
     white-space: nowrap;
+    height: 1.05em;
 }
 
 .schedule-icon {
