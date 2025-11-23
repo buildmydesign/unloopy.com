@@ -361,7 +361,7 @@ body {
 /* Why It Works Section - Minimal fact cards */
 .why-it-works {
     padding: 50px 0;
-    background: var(--surface);
+    background: var(--background);
 }
 
 .facts-grid {
@@ -512,7 +512,7 @@ body {
 }
 
 .cta-text:last-of-type {
-    margin-bottom: var(--spacing-xxl);
+    margin-bottom: 30px;
 }
 
 .cta-final {
