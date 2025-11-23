@@ -52,7 +52,7 @@ body {
 /* Hero Section - Much more compact */
 .hero {
     padding: var(--spacing-xxl) 0 40px;
-    background: linear-gradient(135deg, var(--background) 0%, var(--surface) 100%);
+    background: #b9e5e2;
 }
 
 .hero-content-wrapper {
@@ -67,23 +67,22 @@ body {
 }
 
 .logo {
-    height: 50px;
+    height: 80px;
     width: auto;
-    margin-bottom: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
     display: block;
 }
 
 .hero-title {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     font-weight: 600;
-    line-height: 1.2;
+    line-height: 1.3;
     margin-bottom: var(--spacing-md);
     color: var(--text-primary);
-    white-space: nowrap;
 }
 
 .hero-subtitle {
-    font-size: 1rem;
+    font-size: 0.95rem;
     color: var(--text-secondary);
     margin-bottom: var(--spacing-xl);
     line-height: 1.5;
@@ -91,7 +90,7 @@ body {
 
 .cta-button {
     display: inline-block;
-    background-color: var(--primary);
+    background-color: #eb897a;
     color: white;
     padding: 14px 24px;
     border-radius: 16px;
@@ -113,33 +112,10 @@ body {
     align-items: center;
 }
 
-.phone-mockup {
-    width: 200px;
-    height: 400px;
-    background: var(--card-bg);
-    border-radius: 32px;
-    padding: 10px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    position: relative;
-}
-
-.phone-mockup::before {
-    content: '';
-    position: absolute;
-    top: 15px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80px;
-    height: 20px;
-    background: var(--text-primary);
-    border-radius: 15px;
-}
-
-.phone-screen {
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, var(--background) 0%, var(--surface) 100%);
-    border-radius: 26px;
+.mascot {
+    width: 280px;
+    height: auto;
+    max-width: 100%;
 }
 
 /* Section Title - Smaller */
@@ -527,13 +503,17 @@ body {
         text-align: center;
     }
     
+    .logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
     .hero-visual {
         order: -1;
     }
     
-    .phone-mockup {
-        width: 180px;
-        height: 360px;
+    .mascot {
+        width: 200px;
     }
     
     .steps {
