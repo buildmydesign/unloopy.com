@@ -218,15 +218,22 @@ body {
 .schedule-desc {
     font-size: 0.75rem;
     color: var(--text-secondary);
-    line-height: 1.4;
+    line-height: 1.3;
     margin-bottom: var(--spacing-md);
+    height: 2.4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .schedule-icon {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     margin: 0 auto;
     color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .or-text {
@@ -245,6 +252,7 @@ body {
     gap: var(--spacing-lg);
     max-width: 180px;
     margin: 0 auto;
+    align-items: start;
 }
 
 .app-icon-svg {
