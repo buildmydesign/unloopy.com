@@ -634,7 +634,7 @@ body {
     
     .schedule-options-row {
         flex-direction: column;
-        gap: var(--spacing-lg);
+        gap: var(--spacing-md);
         align-items: center;
     }
     
@@ -644,8 +644,17 @@ body {
         align-items: center;
     }
     
+    .schedule-desc {
+        margin-bottom: var(--spacing-sm);
+    }
+    
     .or-text {
-        padding: var(--spacing-xs) 0;
+        padding: 0;
+        margin-top: 0;
+    }
+    
+    .section-subtitle {
+        margin-bottom: 20px;
     }
     
     .step-arrow {
