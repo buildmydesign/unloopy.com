@@ -196,33 +196,32 @@ body {
     line-height: 1.4;
 }
 
-/* Step 1: Schedule text and icons */
-.schedule-text-container {
-    text-align: center;
-    margin-bottom: var(--spacing-md);
-}
-
-.schedule-text {
-    font-size: 0.75rem;
-    color: var(--text-secondary);
-    line-height: 1.5;
-    margin: 0;
-}
-
-.schedule-type {
-    font-weight: 600;
-    color: var(--primary);
-}
-
+/* Step 1: Schedule options side by side */
 .schedule-options-row {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: var(--spacing-md);
 }
 
 .schedule-option {
     text-align: center;
+    flex: 0 0 auto;
+}
+
+.schedule-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--primary);
+    margin: 0 0 2px 0;
+    line-height: 1.3;
+}
+
+.schedule-desc {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    line-height: 1.3;
+    margin: 0 0 var(--spacing-md) 0;
 }
 
 .schedule-icon {
@@ -240,6 +239,8 @@ body {
     font-weight: 600;
     color: var(--text-secondary);
     padding: 0 var(--spacing-sm);
+    align-self: center;
+    margin-top: 30px;
 }
 
 /* Step 2: App SVG icons */
