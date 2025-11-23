@@ -385,8 +385,10 @@ body {
 }
 
 .feature-icon {
-    font-size: 2rem;
+    width: 32px;
+    height: 32px;
     margin-bottom: var(--spacing-sm);
+    color: var(--text-primary);
 }
 
 .feature-title {
