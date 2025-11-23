@@ -658,11 +658,11 @@ body {
     }
     
     .section-title {
-        margin-bottom: 2px;
+        margin-bottom: 0;
     }
     
     .hero-visual {
-        margin-bottom: var(--spacing-md);
+        margin-bottom: 0;
     }
     
     .step-arrow {
