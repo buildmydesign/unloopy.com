@@ -207,6 +207,7 @@ body {
 .schedule-option {
     text-align: center;
     flex: 0 0 auto;
+    min-width: 140px;
 }
 
 .schedule-label {
@@ -215,6 +216,7 @@ body {
     color: var(--primary);
     margin: 0 0 2px 0;
     line-height: 1.3;
+    white-space: nowrap;
 }
 
 .schedule-desc {
@@ -222,6 +224,7 @@ body {
     color: var(--text-secondary);
     line-height: 1.3;
     margin: 0 0 var(--spacing-md) 0;
+    white-space: nowrap;
 }
 
 .schedule-icon {
