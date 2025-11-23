@@ -71,8 +71,7 @@ body {
     max-width: 1100px;
     margin: 0 auto;
     justify-content: start;
-    margin-left: calc(50% - 550px - 40px);
-    padding-left: 2cm;
+    margin-left: calc(50% - 550px - 40px + 75px);
 }
 
 .hero-content {
