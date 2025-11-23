@@ -172,19 +172,17 @@ body {
     justify-content: center;
     font-size: 1.3rem;
     font-weight: 700;
-    margin-bottom: var(--spacing-md);
+    margin-bottom: var(--spacing-xs);
 }
 
 .step-name {
     font-size: 0.95rem;
     font-weight: 700;
     color: var(--text-primary);
-    margin-bottom: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    min-height: 40px;
-    display: flex;
-    align-items: center;
+    min-height: 20px;
 }
 
 .step-details {
@@ -194,12 +192,19 @@ body {
 .step-subtitle {
     font-size: 0.75rem;
     color: var(--text-secondary);
-    margin-bottom: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
 }
 
-/* Step 1: Schedule options */
+/* Step 1: Schedule options in a row */
+.schedule-options-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-md);
+}
+
 .schedule-option {
-    margin-bottom: var(--spacing-md);
+    text-align: center;
 }
 
 .schedule-icon {
@@ -223,32 +228,25 @@ body {
 }
 
 .or-text {
-    display: block;
     font-size: 0.85rem;
     font-weight: 600;
     color: var(--text-secondary);
-    margin: var(--spacing-sm) 0;
+    padding: 0 var(--spacing-sm);
 }
 
-/* Step 2: App grid */
+/* Step 2: App SVG icons */
 .app-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: var(--spacing-sm);
-    max-width: 150px;
+    gap: var(--spacing-lg);
+    max-width: 180px;
     margin: 0 auto;
 }
 
-.app-icon-item {
+.app-icon-svg {
     width: 40px;
     height: 40px;
-    background: white;
-    border-radius: var(--radius-sm);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.3rem;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    color: var(--text-primary);
 }
 
 /* Step 3: Blocked phone */
@@ -558,6 +556,15 @@ body {
     
     .step-column {
         max-width: 300px;
+    }
+    
+    .schedule-options-row {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+    }
+    
+    .or-text {
+        padding: var(--spacing-xs) 0;
     }
     
     .step-arrow {
