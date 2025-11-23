@@ -605,6 +605,8 @@ body {
     .hero-content-wrapper {
         grid-template-columns: 1fr;
         text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .logo {
@@ -632,7 +634,14 @@ body {
     
     .schedule-options-row {
         flex-direction: column;
-        gap: var(--spacing-sm);
+        gap: var(--spacing-lg);
+        align-items: center;
+    }
+    
+    .schedule-option {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
     .or-text {
