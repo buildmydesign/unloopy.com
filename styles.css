@@ -498,7 +498,7 @@ body {
 
 .cta-subtitle {
     font-size: 1rem;
-    margin-bottom: var(--spacing-lg);
+    margin-bottom: 4px;
     opacity: 0.95;
 }
 
@@ -513,8 +513,8 @@ body {
 
 .cta-final {
     font-size: 1rem;
-    margin-top: var(--spacing-lg);
-    margin-bottom: var(--spacing-xxl);
+    margin-top: var(--spacing-xl);
+    margin-bottom: var(--spacing-xl);
     opacity: 0.95;
     font-weight: 500;
 }
