@@ -361,7 +361,7 @@ body {
 /* Why It Works Section - Minimal fact cards */
 .why-it-works {
     padding: 50px 0;
-    background: var(--background);
+    background: var(--card-bg);
 }
 
 .facts-grid {
@@ -395,7 +395,7 @@ body {
 /* Features Section - Smaller cards */
 .features {
     padding: 50px 0;
-    background-color: var(--card-bg);
+    background-color: var(--background);
 }
 
 .features-grid {
