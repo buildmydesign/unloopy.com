@@ -5,6 +5,14 @@
     box-sizing: border-box;
 }
 
+/* Custom Font */
+@font-face {
+    font-family: 'Tw Cen MT';
+    src: url('assets/TCCEB.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
 :root {
     /* Colors from your app */
     --primary: #eb897a;
@@ -120,158 +128,30 @@ body {
 
 /* Section Title - Smaller */
 .section-title {
+    font-family: 'Tw Cen MT', 'Arial Narrow', sans-serif;
     font-size: 1.8rem;
-    font-weight: 600;
+    font-weight: 800;
     text-align: center;
     margin-bottom: 30px;
     color: var(--text-primary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
-/* How It Works Section - Compact, one row */
+/* How It Works Section - Just the image */
 .how-it-works {
     padding: 50px 0;
     background-color: var(--card-bg);
 }
 
-.steps {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-}
-
-.step {
-    flex: 0 0 auto;
-    max-width: 280px;
+.how-it-works-image-container {
     text-align: center;
 }
 
-.step-number {
-    display: inline-flex;
-    width: 36px;
-    height: 36px;
-    background-color: var(--primary);
-    color: white;
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.1rem;
-    font-weight: 600;
-    margin-bottom: var(--spacing-sm);
-}
-
-.step-title {
-    font-size: 1.1rem;
-    font-weight: 600;
-    margin-bottom: var(--spacing-sm);
-    color: var(--text-primary);
-}
-
-.step-desc {
-    font-size: 0.85rem;
-    color: var(--text-secondary);
-    margin-bottom: var(--spacing-md);
-}
-
-.step-options {
-    display: flex;
-    gap: 12px;
-    align-items: center;
-    justify-content: center;
-    margin-top: var(--spacing-md);
-}
-
-.option {
-    flex: 1;
-    padding: var(--spacing-md);
-    background: white;
-    border-radius: var(--radius-sm);
-    border: 1.5px solid var(--border);
-    transition: all 0.2s ease;
-}
-
-.option:hover {
-    border-color: var(--primary);
-}
-
-.icon-circle {
-    width: 40px;
-    height: 40px;
-    background: var(--surface);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto var(--spacing-xs);
-    color: var(--primary);
-}
-
-.icon-circle svg {
-    width: 20px;
-    height: 20px;
-}
-
-.option-label {
-    font-size: 0.85rem;
-    font-weight: 600;
-    color: var(--primary);
-    margin-bottom: 2px;
-}
-
-.option-desc {
-    font-size: 0.75rem;
-    color: var(--text-secondary);
-}
-
-.or-divider {
-    font-size: 0.85rem;
-    font-weight: 600;
-    color: var(--text-secondary);
-    padding: 0 var(--spacing-sm);
-}
-
-.app-icons {
-    display: flex;
-    gap: var(--spacing-sm);
-    justify-content: center;
-    margin-top: var(--spacing-md);
-}
-
-.app-icon {
-    width: 36px;
-    height: 36px;
-    background: white;
-    border-radius: var(--radius-sm);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.1rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-}
-
-.blocked-visual {
-    margin-top: var(--spacing-md);
-}
-
-.phone-small {
-    width: 60px;
-    height: 110px;
-    background: white;
-    border-radius: 12px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.lock-icon {
-    font-size: 1.5rem;
-}
-
-.step-arrow {
-    font-size: 1.5rem;
-    color: var(--primary);
+.how-it-works-image {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
 }
 
 /* Why It Works Section - Smaller cards */
@@ -516,27 +396,10 @@ body {
         width: 200px;
     }
     
-    .steps {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .step {
-        max-width: 400px;
-    }
-    
-    .step-arrow {
-        transform: rotate(90deg);
-        margin: 12px 0;
-    }
-    
-    .step-options {
-        flex-direction: column;
-    }
-    
-    .or-divider {
-        transform: rotate(90deg);
-        margin: var(--spacing-sm) 0;
+    .features-grid,
+    .testimonials-grid,
+    .facts-grid {
+        grid-template-columns: 1fr;
     }
 }
 
