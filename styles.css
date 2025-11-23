@@ -59,7 +59,7 @@ body {
 
 /* Hero Section - Much more compact */
 .hero {
-    padding: var(--spacing-xxl) 0 40px;
+    padding: 50px 0 60px;
     background: #b9e5e2;
 }
 
