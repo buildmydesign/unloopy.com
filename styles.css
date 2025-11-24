@@ -539,7 +539,7 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-    background: white;
+    background: rgba(255, 255, 255, 0.6);
     color: var(--text-primary);
     padding: 12px 24px;
     border-radius: var(--radius-md);
@@ -548,12 +548,16 @@ body {
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
     position: relative;
     pointer-events: none;
-    opacity: 0.6;
 }
 
 .download-btn:hover {
     transform: none;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+}
+
+.download-btn svg,
+.download-btn .download-text {
+    opacity: 0.6;
 }
 
 .coming-soon-badge {
@@ -572,6 +576,7 @@ body {
     pointer-events: none;
     white-space: nowrap;
     border: 1.5px solid var(--border);
+    opacity: 1;
 }
 
 .download-btn svg {
