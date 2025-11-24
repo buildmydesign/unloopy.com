@@ -560,7 +560,7 @@ body {
     position: absolute;
     top: -8px;
     right: -8px;
-    background: #f6fff1;
+    background: white;
     color: var(--text-primary);
     font-size: 0.7rem;
     font-weight: 700;
