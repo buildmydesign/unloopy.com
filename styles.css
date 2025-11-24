@@ -561,8 +561,8 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgba(235, 137, 122, 0.95);
-    color: white;
+    background: rgba(246, 255, 241, 0.95);
+    color: var(--text-primary);
     font-size: 0.85rem;
     font-weight: 700;
     padding: 8px 16px;
@@ -582,6 +582,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 2px;
 }
 
 .download-small {
