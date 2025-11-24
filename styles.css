@@ -150,6 +150,10 @@ body {
     margin-bottom: 30px;
 }
 
+.mobile-break {
+    display: none;
+}
+
 /* How It Works Section - Refined horizontal layout */
 .how-it-works {
     padding: 50px 0;
@@ -542,11 +546,26 @@ body {
     text-decoration: none;
     transition: all 0.2s ease;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+    position: relative;
 }
 
 .download-btn:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.coming-soon-badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: var(--primary);
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 .download-btn svg {
@@ -704,6 +723,10 @@ body {
     
     .section-subtitle {
         margin-bottom: 20px !important;
+    }
+    
+    .mobile-break {
+        display: inline;
     }
     
     .hero-title {
