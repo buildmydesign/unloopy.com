@@ -560,7 +560,7 @@ body {
     position: absolute;
     top: -8px;
     right: -8px;
-    background: rgba(246, 255, 241, 0.95);
+    background: #f6fff1;
     color: var(--text-primary);
     font-size: 0.7rem;
     font-weight: 700;
@@ -571,6 +571,7 @@ body {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     pointer-events: none;
     white-space: nowrap;
+    border: 1.5px solid var(--border);
 }
 
 .download-btn svg {
@@ -582,7 +583,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 2px;
+    gap: 0;
+    margin-top: 4px;
 }
 
 .download-small {
