@@ -558,19 +558,19 @@ body {
 
 .coming-soon-badge {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: -8px;
+    right: -8px;
     background: rgba(246, 255, 241, 0.95);
     color: var(--text-primary);
-    font-size: 0.85rem;
+    font-size: 0.7rem;
     font-weight: 700;
-    padding: 8px 16px;
-    border-radius: 6px;
+    padding: 4px 10px;
+    border-radius: 4px;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     pointer-events: none;
+    white-space: nowrap;
 }
 
 .download-btn svg {
