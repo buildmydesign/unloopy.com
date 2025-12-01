@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Unloopy</title>
+    <meta name="description" content="Privacy Policy for Unloopy - Learn how we protect your data and privacy.">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .privacy-policy {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 20px;
+            background-color: white;
+        }
+        
+        .privacy-header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid var(--border);
+        }
+        
+        .privacy-header h1 {
+            font-size: 2.5rem;
+            color: var(--text-primary);
+            margin-bottom: 10px;
+        }
+        
+        .privacy-header .last-updated {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+        
+        .privacy-content {
+            line-height: 1.8;
+            color: var(--text-primary);
+        }
+        
+        .privacy-content h2 {
+            font-size: 1.5rem;
+            color: var(--text-primary);
+            margin-top: 40px;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .privacy-content h3 {
+            font-size: 1.2rem;
+            color: var(--text-primary);
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        
+        .privacy-content p {
+            margin-bottom: 15px;
+            color: var(--text-secondary);
+        }
+        
+        .privacy-content ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        .privacy-content li {
+            margin-bottom: 8px;
+            color: var(--text-secondary);
+        }
+        
+        .privacy-content strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+        
+        .back-home {
+            display: inline-block;
+            margin-bottom: 30px;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.2s ease;
+        }
+        
+        .back-home:hover {
+            color: #e47566;
+        }
+        
+        .back-home::before {
+            content: "← ";
+        }
+        
+        @media (max-width: 640px) {
+            .privacy-policy {
+                padding: 40px 20px;
+            }
+            
+            .privacy-header h1 {
+                font-size: 2rem;
+            }
+            
+            .privacy-content h2 {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body style="background-color: #f6fff1;">
+    <div class="privacy-policy">
+        <a href="index.html" class="back-home">Back to Home</a>
+        
+        <div class="privacy-header">
+            <h1>Privacy Policy for Unloopy</h1>
+            <p class="last-updated">Last updated: December 1, 2024</p>
+        </div>
+        
+        <div class="privacy-content">
+            <h2>Introduction</h2>
+            <p>Unloopy ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains what information we collect, how we use it, and how we safeguard it when you use the Unloopy mobile application (the "App").</p>
+            <p>Unloopy is a digital wellbeing app that helps you limit distracting apps using usage limits, schedules, and time-saved insights.</p>
+            
+            <h2>Information We Collect</h2>
+            
+            <h3>1. App Usage & Blocking Data</h3>
+            <p>To provide distraction-blocking functionality, we collect:</p>
+            <ul>
+                <li><strong>App Usage Statistics:</strong> How long each app is used.</li>
+                <li><strong>App Identifiers (Package Names):</strong> The specific apps you choose to block (required to enforce your blocking rules).</li>
+                <li><strong>Session Metadata:</strong> Session start and end times, durations, and whether a session was blocked.</li>
+                <li><strong>Blocking Events:</strong> When an app was blocked based on your configured limits or schedules.</li>
+                <li><strong>Time Saved Metrics:</strong> Calculated time saved due to blocking.</li>
+            </ul>
+            <p>This data is used strictly for enforcing your settings and displaying usage insights.</p>
+            
+            <h3>2. Technical Data</h3>
+            <p>We collect limited technical information to improve performance:</p>
+            <ul>
+                <li>Device information (e.g., model, Android version)</li>
+                <li>App performance and crash logs</li>
+            </ul>
+            <p>Collected through Firebase Analytics and Crashlytics.</p>
+            <p>This technical data is anonymous and used only for diagnostics.</p>
+            
+            <h2>How We Use Your Information</h2>
+            <p>We use the collected data to:</p>
+            <ul>
+                <li>Enforce your configured blocking schedules and usage limits</li>
+                <li>Display usage insights, app sessions, and time-saved metrics</li>
+                <li>Detect when a blocked app is opened and redirect you to the block screen</li>
+                <li>Improve app reliability and troubleshoot issues</li>
+                <li>Backup schedules and session metadata for reinstalls</li>
+            </ul>
+            <p><strong>We do NOT use your data for advertising, profiling, or selling to third parties.</strong></p>
+            
+            <h2>Sensitive Permission Disclosures (Required by Google)</h2>
+            <p>Unloopy uses several Android permissions essential for its core functionality.<br>
+            We do not use these permissions to collect sensitive personal content.</p>
+            
+            <h3>Usage Access Permission</h3>
+            <p>Used only to:</p>
+            <ul>
+                <li>Read app usage durations</li>
+                <li>Identify which app is in use</li>
+                <li>Enforce your configured app limits</li>
+                <li>Generate your usage insights</li>
+            </ul>
+            <p><strong>We do not read in-app content, messages, browsing data, or personal information.</strong></p>
+            
+            <h3>Accessibility Service</h3>
+            <p>Used only to:</p>
+            <ul>
+                <li>Detect when a blocked app is opened</li>
+                <li>Immediately redirect you to the Unloopy block screen</li>
+            </ul>
+            <p><strong>We do not:</strong></p>
+            <ul>
+                <li>Read text typed on your device</li>
+                <li>Read notifications, conversations, or content</li>
+                <li>Capture screens</li>
+                <li>Collect or transmit any sensitive information</li>
+            </ul>
+            
+            <h3>Foreground Service</h3>
+            <p>Used only so Unloopy can:</p>
+            <ul>
+                <li>Enforce blocking rules in real time</li>
+                <li>Continue functioning when running in the background</li>
+            </ul>
+            <p>It does not collect any additional data.</p>
+            
+            <h2>Data Storage and Security</h2>
+            
+            <h3>Local Storage</h3>
+            <p>All usage data and blocking configurations are stored securely on your device.</p>
+            
+            <h3>Firebase Cloud Storage</h3>
+            <p>We sync only the following to Firebase:</p>
+            <ul>
+                <li>Blocking schedules</li>
+                <li>Blocking attempts</li>
+                <li>Session metadata: app identifiers (package names), session timestamps, durations, and block events</li>
+            </ul>
+            <p>This allows backup and analytics for reinstalls.</p>
+            
+            <p><strong>We do not store:</strong></p>
+            <ul>
+                <li>In-app actions</li>
+                <li>Personal content</li>
+                <li>Messages, photos, browsing data, or credentials</li>
+                <li>User names, email addresses, or phone numbers</li>
+            </ul>
+            
+            <h3>Analytics</h3>
+            <p>We use Firebase Analytics and Crashlytics for:</p>
+            <ul>
+                <li>Anonymous performance metrics</li>
+                <li>Crash diagnostics</li>
+            </ul>
+            <p>These contain no personal identifiers and cannot be linked back to you.</p>
+            
+            <h2>Data Sharing</h2>
+            <p><strong>We do not sell, trade, or share your data with any third parties.</strong></p>
+            <p>The only external service we use is:</p>
+            <ul>
+                <li><strong>Firebase (Google)</strong> for cloud backup, analytics, and crash reporting</li>
+            </ul>
+            <p>Firebase's processing is covered under Google's Privacy Policy.</p>
+            
+            <h2>Your Rights</h2>
+            <p>You have the right to:</p>
+            <ul>
+                <li><strong>Delete all your data</strong> by uninstalling the app<br>(this deletes both local data and your synced cloud data)</li>
+                <li><strong>Disable specific permissions</strong> at any time through device settings</li>
+                <li><strong>Contact us</strong> with any privacy questions or concerns</li>
+            </ul>
+            
+            <h2>Children's Privacy</h2>
+            <p>Unloopy is intended for users aged 13 and above.<br>
+            We do not knowingly collect personal information from children under 13.</p>
+            
+            <h2>Changes to This Privacy Policy</h2>
+            <p>We may update this Privacy Policy periodically.<br>
+            The "Last updated" date will reflect the latest revisions.</p>
+            
+            <h2>Contact Us</h2>
+            <p>If you have any questions about this Privacy Policy or how Unloopy handles data, please contact us at:</p>
+            <p><strong>buildmydesign@gmail.com</strong></p>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">Have feedback or questions?</p>
+            <a href="mailto:hello@unloopy.com" class="footer-link">hello@unloopy.com</a>
+            <div class="footer-links" style="margin-top: 12px;">
+                <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
+            </div>
+            <p class="footer-copyright">© 2025 Unloopy. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
